@@ -13,14 +13,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Felipe de Morais
+title: "Felipe de Morais | Blog do FeliPython sinistro"
 email: felipejpa15@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  "Desenvolvedor apaixonado por aprender e resolver problemas"
+  "Blog do FeliPython"
 twitter_username: felipedemorais_
 github_username: lipemorais
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
+
+locale: "pt-BR"
+words_per_minute: 200
+repository: "lipemorais/lipemorais.github.io"
+breadcrumbs: true 
+show_date: true
+comments: true
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "felipedemorais-com-br"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +40,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: BR
+timezone: America/Sao_Paulo
 
 include:
   - _pages
@@ -60,30 +71,21 @@ author:
   avatar : "/images/me.jpg"
   bio    : "Sou um amante de resolver problemas que curte Python, programação funcional, Agilidade e viajar."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/felipedemorais_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lipemorais"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/felipedemorais_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lipemorais"
 
 defaults:
   # _posts
